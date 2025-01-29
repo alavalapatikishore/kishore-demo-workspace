@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>uiaction property</name>
+        <page display_value="Kishore demo">124b34768313121087299d60ceaad395</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 14:15:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>09b2ab4b83d7121087299d60ceaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>uiaction property</sys_name>
+        <sys_package display_value="HelpDesk workspace" source="x_1021112_helpdesk">7b5ab8368313121087299d60ceaad347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HelpDesk workspace">7b5ab8368313121087299d60ceaad347</sys_scope>
+        <sys_update_name>sys_ux_page_property_09b2ab4b83d7121087299d60ceaad3b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 14:15:48</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1021112_helpdesk.124b34768313121087299d60ceaad395.root.global.uiaction property</unique_name>
+        <value>b8922b4b83d7121087299d60ceaad371</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=09b2ab4b83d7121087299d60ceaad3b9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HelpDesk workspace">7b5ab8368313121087299d60ceaad347</application>
+        <file_path/>
+        <instance_id>8139738cebb30618c040fddacad0cd72</instance_id>
+        <instance_name>dev283123</instance_name>
+        <name>sys_ux_page_property_09b2ab4b83d7121087299d60ceaad3b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>uiaction property</name><page display_value="Kishore demo">124b34768313121087299d60ceaad395</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-29 14:15:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>09b2ab4b83d7121087299d60ceaad3b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>uiaction property</sys_name><sys_package display_value="HelpDesk workspace" source="x_1021112_helpdesk">7b5ab8368313121087299d60ceaad347</sys_package><sys_policy/><sys_scope display_value="HelpDesk workspace">7b5ab8368313121087299d60ceaad347</sys_scope><sys_update_name>sys_ux_page_property_09b2ab4b83d7121087299d60ceaad3b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-29 14:15:48</sys_updated_on><type>string</type><unique_name>x_1021112_helpdesk.124b34768313121087299d60ceaad395.root.global.uiaction property</unique_name><value>b8922b4b83d7121087299d60ceaad371</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=09b2ab4b83d7121087299d60ceaad3b9"/></record_update>]]></payload>
+        <payload_hash>737687897</payload_hash>
+        <record_name>uiaction property</record_name>
+        <reverted_from/>
+        <source>3cd4ad3e83d3121087299d60ceaad3a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 14:15:48</sys_created_on>
+        <sys_id>aed2a74b83d7121087299d60ceaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b26b0ec90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 14:15:48</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>a2d2a74b6ed712106735f52247430499</update_guid>
+        <update_guid_history>a2d2a74b6ed712106735f52247430499:737687897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 14:22:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>0304f15b80bf45288fb55c55e1a16bf1</sys_id>
+        <sys_metadata>09b2ab4b83d7121087299d60ceaad3b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>uiaction property</sys_name>
+        <sys_package display_value="HelpDesk workspace" source="x_1021112_helpdesk">7b5ab8368313121087299d60ceaad347</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HelpDesk workspace">7b5ab8368313121087299d60ceaad347</sys_scope>
+        <sys_scope_delete display_value="">889d4d00d9f84d58a900640457083a84</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_09b2ab4b83d7121087299d60ceaad3b9</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_09b2ab4b83d7121087299d60ceaad3b9">aed2a74b83d7121087299d60ceaad399</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 14:22:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_action_config">
+    <sys_ux_action_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>uiactionconfig progress</name>
+        <sys_class_name>sys_ux_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 14:24:06</sys_created_on>
+        <sys_id>e7a4e30f83d7121087299d60ceaad3fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>uiactionconfig progress</sys_name>
+        <sys_package display_value="HelpDesk workspace" source="x_1021112_helpdesk">7b5ab8368313121087299d60ceaad347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HelpDesk workspace">7b5ab8368313121087299d60ceaad347</sys_scope>
+        <sys_update_name>sys_ux_action_config_e7a4e30f83d7121087299d60ceaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 14:26:59</sys_updated_on>
+    </sys_ux_action_config>
+</record_update>
