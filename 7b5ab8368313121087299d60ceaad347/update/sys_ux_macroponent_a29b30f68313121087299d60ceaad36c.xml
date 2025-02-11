@@ -1507,7 +1507,7 @@
                                                                                 "elementLabel": "Single score 1",
                                                                                 "eventMappings": [
                                                                                     {
-                                                                                        "eventMappingId": "cmgggbkmgaaaccbbsddffiiffafflbbiqffi",
+                                                                                        "eventMappingId": "cmhhaabbwzveaaddskddffiiffwrnbbawtcc",
                                                                                         "isConfiguration": false,
                                                                                         "offRowStorageId": null,
                                                                                         "sourceEventApiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
@@ -1527,72 +1527,19 @@
                                                                                                 "event": {
                                                                                                     "apiName": "x_1021112_helpdesk.NAV_ITEM_SELECTED_RELAY_a29b30f68313121087299d60ceaad36c",
                                                                                                     "payload": {
-                                                                                                        "container": {
-                                                                                                            "external": {
-                                                                                                                "type": "JSON_LITERAL",
-                                                                                                                "value": null
-                                                                                                            },
-                                                                                                            "fields": {
-                                                                                                                "container": {
-                                                                                                                    "tableName": {
-                                                                                                                        "binding": {
-                                                                                                                            "address": [
-                                                                                                                                "params.table"
-                                                                                                                            ]
-                                                                                                                        },
-                                                                                                                        "type": "EVENT_PAYLOAD_BINDING"
-                                                                                                                    }
-                                                                                                                },
-                                                                                                                "type": "MAP_CONTAINER"
-                                                                                                            },
-                                                                                                            "multiInstField": {
-                                                                                                                "type": "JSON_LITERAL",
-                                                                                                                "value": null
-                                                                                                            },
-                                                                                                            "navigationOptions": {
-                                                                                                                "type": "JSON_LITERAL",
-                                                                                                                "value": null
-                                                                                                            },
-                                                                                                            "params": {
-                                                                                                                "container": {
-                                                                                                                    "queryFilter": {
-                                                                                                                        "binding": {
-                                                                                                                            "address": [
-                                                                                                                                "params.query"
-                                                                                                                            ]
-                                                                                                                        },
-                                                                                                                        "type": "EVENT_PAYLOAD_BINDING"
-                                                                                                                    }
-                                                                                                                },
-                                                                                                                "type": "MAP_CONTAINER"
-                                                                                                            },
-                                                                                                            "passiveNavigation": {
-                                                                                                                "type": "JSON_LITERAL",
-                                                                                                                "value": null
-                                                                                                            },
-                                                                                                            "redirect": {
-                                                                                                                "type": "JSON_LITERAL",
-                                                                                                                "value": null
-                                                                                                            },
-                                                                                                            "route": {
-                                                                                                                "type": "JSON_LITERAL",
-                                                                                                                "value": "listitem"
-                                                                                                            },
-                                                                                                            "targetRoute": {
-                                                                                                                "type": "JSON_LITERAL",
-                                                                                                                "value": null
-                                                                                                            },
-                                                                                                            "title": {
-                                                                                                                "type": "JSON_LITERAL",
-                                                                                                                "value": null
-                                                                                                            }
+                                                                                                        "script": {
+                                                                                                            "apiVersion": "1.0.0",
+                                                                                                            "controllerElementId": null,
+                                                                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\troute: \"list-item\",\n\t\tfields: {\"tableName\":event.payload.params.table},\n\t\tparams: {\"tableName\":event.payload.params.table, \"queryFilter\":event.payload.params.query},\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: null,\n\t\tnavigationOptions: null\n\t};\n}",
+                                                                                                            "scriptSysId": null,
+                                                                                                            "target": null
                                                                                                         },
-                                                                                                        "type": "MAP_CONTAINER"
+                                                                                                        "type": "CLIENT_TRANSFORM_SCRIPT"
                                                                                                     },
                                                                                                     "sysId": "3e4f45b28393121087299d60ceaad3d2"
                                                                                                 },
                                                                                                 "operation": null,
-                                                                                                "targetId": "cmgggbkmgbaaccbbtddffiiffpkccuddzrb",
+                                                                                                "targetId": "cmhhaabbwzveaaddslddffiiffffstmkoiir",
                                                                                                 "type": "EVENT"
                                                                                             }
                                                                                         ]
@@ -3401,14 +3348,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-28 07:26:36</sys_created_on>
         <sys_id>a29b30f68313121087299d60ceaad36c</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="HelpDesk workspace" source="x_1021112_helpdesk">7b5ab8368313121087299d60ceaad347</sys_package>
         <sys_policy/>
         <sys_scope display_value="HelpDesk workspace">7b5ab8368313121087299d60ceaad347</sys_scope>
         <sys_update_name>sys_ux_macroponent_a29b30f68313121087299d60ceaad36c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 13:22:15</sys_updated_on>
+        <sys_updated_on>2025-02-11 05:46:21</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a29b30f68313121087299d60ceaad36c"/>
 </record_update>
